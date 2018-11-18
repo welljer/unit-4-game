@@ -1,7 +1,7 @@
     "use strict"
-$(document).ready(function(){
+    $(document).ready(function(){
 var counter = 0;
-var win = 0;
+var wins = 0;
 var losses = 0;
 var targetNumber = "";  
 
@@ -11,13 +11,6 @@ var targetNumber = Math.floor(Math.random() * 101 + 19);{
     };
     // -- turn on to see target number--
     // console.log(targetNumber)
-    
-    // --gives value to images--;
-var image = {}
-image[1] = Math.floor(Math.random() * 12 + 1);
-image[2] = Math.floor(Math.random() * 12 + 1);
-image[3] = Math.floor(Math.random() * 12 + 1);
-
 
 function reset(){
     targetNumber = Math.floor(Math.random() * 101 + 19);
@@ -28,20 +21,27 @@ function reset(){
     $("#score-number").text(counter);
     }
 
-    // --adds to counter and wins losses--
-function toolImage(imageValue){
-    return function(){        
+        // --gives value to images--;
+var toolImage = {}
+image[1] = Math.floor(Math.random() * 12 + 1);
+image[2] = Math.floor(Math.random() * 12 + 1);
+image[3] = Math.floor(Math.random() * 12 + 1);
+
+
+    // --adds to counter and wins/losses--
+function image(imageValue){
+        return function(){        
         counter = counter + toolImage[imageValue];
-        $("#score-number").text(counter);
+    $("#score-number").text(counter);
         if (counter === targetNumber){
             wins++;
-            $("#wins").text(wins);
+    $("#wins").text(wins);
             reset();
         }
         else if (counter > targetNumber){
             losses++;
-            $("#losses").text(losses);
-                reset();
+    $("#losses").text(losses);
+            reset();
             };
         };
     };

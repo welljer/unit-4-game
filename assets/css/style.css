@@ -11,8 +11,11 @@
 }
 
 .header{
-    color:#3333cc;
+    color:#cc3354;
     margin: auto;
+    padding: 5px;
+    border: 1px;
+    border-color: #cc3354;
 }
 
 
@@ -47,7 +50,7 @@
 .mining{
     color:#3333cc;
     margin: auto;
-
+    padding: 5px;
 }
 
 #goal-number{
@@ -59,4 +62,16 @@
 body {
     background-color:#000000;
     margin: auto;
+}
+
+#score-number{
+    color:#3333cc;
+}
+
+#wins{
+    color:#3333cc;
+}
+
+#losses{
+    color:#3333cc;
 }
