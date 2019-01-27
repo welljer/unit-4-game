@@ -5,7 +5,7 @@ There is a certain depth to travel to obtain the crystal, if you exceed the dist
 The distance the tool will allow you to travel will be revealed on button click.
 The values of the depth to travel and tools will reset once the crystal has been obtained or broken
 
-[link to the game]( https://welljer.github.io/unit-4-game/)
+[link to the game](https://welljer.github.io/unit-4-game/)
 
 ## Technologies
 
