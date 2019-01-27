@@ -9,10 +9,10 @@ The values of the depth to travel and tools will reset once the crystal has been
 
 ## Technologies
 
-HTML
-CSS
-JavaScript
-JQuery
+* HTML
+* CSS
+* JavaScript
+* JQuery
 
 ## How to play
 This is a guessing game using numbers where the player will guess with numbers.
