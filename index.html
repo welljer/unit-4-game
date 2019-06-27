@@ -10,7 +10,8 @@
     <title>Crystal Mining Game</title>
 </head>
 <body>
-        <div class="container">
+    <div class= "background">
+           <div class="container">
             <div class = "row">
                 <h1 class = "header">Crystal Miner</h1>
             </div>
@@ -21,38 +22,41 @@
                         <p>The values of the depth to travel and tools will reset once the crystal has been obtained or broken</p>
                     </div>
                 </div>  
-        <br>        
-            <div class = "row">
-                <div class = "col-lg-6 randomNumber"></div>
-                <div class = "col-lg-1"></div>
-                <div class = "col-lg-2 totalWL">
-                    <div class = "row wins">Wins</div>
-                    <div class = "row losses">Losses</div>
-                </div>
-            </div> 
-        <br>
-            <div class = "row">
-                <div class = "col-lg-4 gems">
-                    <div id = "img1"></div>
-                </div>
-                <div class = "col-lg-4 gems">
-                        <div id = "img2"></div>
-                    </div>
-                <div class = "col-lg-4 gems">
-                        <div id = "img3"></div>
-                    </div>
-            </div>
-        <br>
+        <br>    
             <div class = "containerTwo">
                 <div class = "row">
-                    <div class = "col-lg-6 totalScore">Your total depth travelled is:</div>
-                </div>
+                    <div class = "col-lg-2 filler">Distance to travel:</div>
+                    <div class = "col-lg-4 randomNumber"></div>
+                    <div class = "col-lg-1"></div>
+                    <div class = "col-lg-2 totalWL">
+                        <div class = "row wins">Wins</div>
+                        <div class = "row losses">Losses</div>
+                    </div>
+                </div> 
             <br>
                 <div class = "row">
-                    <div class = "col-lg-6 scoreDisplay">Your current depth is:</div>
+                    <div class = "col-lg-4 gems">
+                        <div id = "img1"></div>
+                    </div>
+                    <div class = "col-lg-4 gems">
+                            <div id = "img2"></div>
+                        </div>
+                    <div class = "col-lg-4 gems">
+                            <div id = "img3"></div>
+                        </div>
                 </div>
+            <br>
+                    <div class = "row">
+                        <div class = "col-lg-6 totalScore">Your total depth travelled is:</div>
+                    </div>
+                <br>
+                    <div class = "row">
+                        <div class = "col-lg-6 scoreDisplay">Your current depth is:</div>
+                    </div>
             </div>
         </div>
+    </div> 
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>
