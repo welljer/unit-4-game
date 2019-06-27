@@ -1,6 +1,6 @@
 # Crystal Mining game
 
-![Picture of game](https://github.com/welljer/unit-4-game/blob/master/assets/images/readme.JPG)
+![gif of gameplay](assets/images/demoPlay.gif)
 
 
 There is a certain depth to travel to obtain the crystal, if you exceed the distance the crystal will break.
